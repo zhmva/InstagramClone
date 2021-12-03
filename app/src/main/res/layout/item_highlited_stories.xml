@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/ic_story"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:text="Story N"
+            android:layout_width="65dp"
+            android:layout_height="17dp"/>
+
+</LinearLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Profile1"
+    android:id="@+id/fg_profile_sc1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="352dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="56dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="143dp"
+                android:layout_marginEnd="142dp"
+                android:drawableEnd="@drawable/ic_menu"
+                android:fontFamily="sans-serif-black"
+                android:text="User name"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/ic_userpic" />
+
+            <LinearLayout
+                android:layout_width="215dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="37dp">
+
+                <LinearLayout
+                    android:layout_width="52dp"
+                    android:layout_height="39dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="52dp"
+                        android:layout_height="19dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="210"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="post"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="52dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="52dp"
+                        android:layout_height="19dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="600"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-black"
+                        android:text="follower"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="62dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="52dp"
+                        android:layout_height="19dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="500"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-black"
+                        android:text="following"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="13dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="19dp"
+                android:text="Piero Borgo"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginTop="2dp"
+                android:text="Product designer, founder of Leevia, Lego bricks lover."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="2dp"
+                android:text="leevia.com"
+                android:textColor="#10467D"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginHorizontal="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <Button
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:text="Follow"
+                android:backgroundTint="#3898F3"
+                android:layout_width="150dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:text="Message"
+                android:backgroundTint="#FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:drawableEnd="@drawable/ic_vector_8"
+                android:backgroundTint="#FFFFFF"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_high_lights"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                tools:listitem="@layout/item_highlited_stories"
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_marginHorizontal="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/gallery_navigation"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:elevation="2dp"
+                app:itemIconTint="@drawable/item_selector"
+                app:itemRippleColor="@color/white"
+                app:labelVisibilityMode="unlabeled"
+                app:menu="@menu/nav_gallery_menu" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

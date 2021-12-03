@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fg_home_sc">
+    <LinearLayout
+        android:layout_marginStart="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_logo"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal"
+            android:paddingVertical="22dp">
+
+            <ImageView
+                android:id="@+id/ic_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_camera" />
+
+            <ImageView
+                android:id="@+id/ic_instagram"
+                android:layout_width="106dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="101dp"
+                android:src="@drawable/ic_instagram_logo" />
+
+            <ImageView
+                android:id="@+id/ic_igtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:src="@drawable/ic_igtv" />
+
+            <ImageView
+                android:id="@+id/ic_direct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/ic_direct" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/ic_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Stories"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="-45dp"
+                android:src="@drawable/ic_addstory" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_stories"
+                android:layout_width="399dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="37dp"
+                android:orientation="horizontal"
+                tools:listitem="@layout/item_stories" />
+
+            <TextView
+                android:drawableStart="@drawable/ic_watch_all"
+                android:layout_marginStart="-180dp"
+                android:layout_marginBottom="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Watch all"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_posts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_post" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:elevation="2dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@color/white"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

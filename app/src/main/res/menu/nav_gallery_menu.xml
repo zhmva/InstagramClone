@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/btn_grid"
+        android:title="Grid"
+        android:icon="@drawable/ic_grid"/>
+
+
+    <item android:id="@+id/btn_tags"
+        android:title="Tags"
+        android:icon="@drawable/ic_tags"/>
+
+
+    <item android:id="@+id/btn_igtv"
+        android:title="IGTV"
+        android:icon="@drawable/ic_igtv"/>
+
+
+
+
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">InstagramClone</string>
+    <string-array name="userNames">
+        <item>randomUser</item>
+        <item>randomUser</item>
+        <item>randomUser</item>
+        <item>randomUser</item>
+        <item>randomUser</item>
+        <item>randomUser</item>
+        <item>randomUser</item>
+        <item>randomUser</item>
+        <item>randomUser</item>
+    </string-array>
+
+    <string-array name="postComments">
+        <item>bestWishes</item>
+        <item>bestWishes</item>
+        <item>bestWishes</item>
+        <item>bestWishes</item>
+        <item>bestWishes</item>
+        <item>bestWishes</item>
+        <item>bestWishes</item>
+        <item>bestWishes</item>
+        <item>bestWishes</item>
+    </string-array>
+
+
+   </resources>
